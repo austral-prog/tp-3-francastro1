@@ -1,5 +1,6 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
+    hello_world=input("Ingrese Hola, Mundo! en ingles ")
+    print(hello_world[4:13:2])
 
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+    numero=input("Ingrese los numeros del 1 al 10 incluido ")
+    print(numero[4:11:2])
